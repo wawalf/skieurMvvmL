@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SkieurMVVML"
+             x:Class="SkieurMVVML.MainPage" 
+             BindingContext="{Binding Main,Source={StaticResource Locator}}">
+    <StackLayout>
+        <!-- ON LOAD -->
+        <Label Text="On load"></Label>
+        <ListView ItemTemplate="{StaticResource unSkieurDesign}"
+            ItemsSource="{Binding Skieurs}"
+                  SelectedItem="{Binding SelectedSkieur}">
+        </ListView>
+        
+        <Button Text="Go to" 
+                Command="{Binding Path=NavigateToCommand}"
+                CommandParameter="DetailPage"></Button>
+        <!-- END OF ON LOAD -->
+        
+        <!--            RELAY COMMAND ANO           -->
+        <Label Text="Relay command anonimous"></Label>
+        <ListView ItemsSource="{Binding Skieurs}"
+            ItemTemplate="{StaticResource unSkieurDesign}">
+        </ListView>
+        <Button Text="Relay command anonimous" 
+                Command="{Binding Path=RefreshRelayCommandAno}"></Button>
+        
+        <!--            RELAY COMMAND                -->
+        <Label Text="Relay Command"></Label>
+        <ListView ItemsSource="{Binding Skieurs}" 
+                  ItemTemplate="{StaticResource unSkieurDesign}">
+        </ListView>
+        <Button Text="Relay Command" 
+                Command="{Binding Path=RefreshRelayCommand}"></Button>
+        <!--         END OF RELAY COMMAND            -->
+        
+        <!--             COMMAND                -->
+        <Label Text=" Command"></Label>
+        <ListView ItemsSource="{Binding Skieurs}"
+                  ItemTemplate="{StaticResource unSkieurDesign}">
+        </ListView>
+        <Button Text=" Command" 
+                Command="{Binding Path=RefreshCommand}"></Button>
+        <!--         END OF  COMMAND            -->
+        
+    </StackLayout>
+
+</ContentPage>

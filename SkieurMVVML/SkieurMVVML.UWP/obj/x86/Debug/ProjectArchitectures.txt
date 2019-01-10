@@ -1,0 +1,1 @@
+C:\Users\matthieuroyer\Source\Repos\SkieurMVVML\SkieurMVVML\SkieurMVVML.UWP\SkieurMVVML.UWP.csproj;x86

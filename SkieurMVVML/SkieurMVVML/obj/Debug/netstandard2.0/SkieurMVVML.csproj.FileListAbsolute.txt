@@ -1,0 +1,13 @@
+C:\Users\matthieuroyer\Source\Repos\SkieurMVVML\SkieurMVVML\SkieurMVVML\bin\Debug\netstandard2.0\SkieurMVVML.deps.json
+C:\Users\matthieuroyer\Source\Repos\SkieurMVVML\SkieurMVVML\SkieurMVVML\bin\Debug\netstandard2.0\SkieurMVVML.dll
+C:\Users\matthieuroyer\Source\Repos\SkieurMVVML\SkieurMVVML\SkieurMVVML\obj\Debug\netstandard2.0\SkieurMVVML.csprojAssemblyReference.cache
+C:\Users\matthieuroyer\Source\Repos\SkieurMVVML\SkieurMVVML\SkieurMVVML\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\matthieuroyer\Source\Repos\SkieurMVVML\SkieurMVVML\SkieurMVVML\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\matthieuroyer\Source\Repos\SkieurMVVML\SkieurMVVML\SkieurMVVML\obj\Debug\netstandard2.0\SkieurMVVML.csproj.CoreCompileInputs.cache
+C:\Users\matthieuroyer\Source\Repos\SkieurMVVML\SkieurMVVML\SkieurMVVML\obj\Debug\netstandard2.0\SkieurMVVML.AssemblyInfoInputs.cache
+C:\Users\matthieuroyer\Source\Repos\SkieurMVVML\SkieurMVVML\SkieurMVVML\obj\Debug\netstandard2.0\SkieurMVVML.AssemblyInfo.cs
+C:\Users\matthieuroyer\Source\Repos\SkieurMVVML\SkieurMVVML\SkieurMVVML\obj\Debug\netstandard2.0\Views\DetailPage.xaml.g.cs
+C:\Users\matthieuroyer\Source\Repos\SkieurMVVML\SkieurMVVML\SkieurMVVML\bin\Debug\netstandard2.0\SkieurMVVML.pdb
+C:\Users\matthieuroyer\Source\Repos\SkieurMVVML\SkieurMVVML\SkieurMVVML\obj\Debug\netstandard2.0\SkieurMVVML.dll
+C:\Users\matthieuroyer\Source\Repos\SkieurMVVML\SkieurMVVML\SkieurMVVML\obj\Debug\netstandard2.0\SkieurMVVML.pdb
+C:\Users\matthieuroyer\Source\Repos\SkieurMVVML\SkieurMVVML\SkieurMVVML\obj\Debug\netstandard2.0\XamlC.stamp
