@@ -109,7 +109,9 @@ namespace SkieurMVVML.ViewModels
 
         private void NavigateTo(string obj)
         {
+            var vm = CommonServiceLocator.ServiceLocator.Current.GetInstance<IDetailPageViewModel>();
             Messenger.Default.Send<Skieur>(SelectedSkieur);
+
             _iNaviagtionService.NavigateTo("DetailPage");
         }
         public void RefreshMethodeCommand(string obj)
